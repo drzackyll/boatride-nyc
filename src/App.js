@@ -7,10 +7,12 @@ const App = () => {
 
   return (
     <div>
-      <h2>BoatrideNYC</h2>
-      Harbor Tours and Charters <br />
-      Call or email Captain John for rates and availability <br />
-      john@boatridenyc.com | 914-772-7335 <br />
+      <div style={{textAlign: "center"}}>
+        <h2>BoatrideNYC</h2>
+        Harbor Tours and Charters <br />
+        Call or email Captain John for rates and availability <br />
+        john@boatridenyc.com | 914-772-7335 <br />
+      </div>
 
       <div className="container-fluid">
         <div className="row">
