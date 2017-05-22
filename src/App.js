@@ -8,15 +8,17 @@ const App = () => {
   return (
     <div>
       <div style={{textAlign: "center"}}>
-        <h2>BoatrideNYC</h2>
-        Harbor Tours and Charters <br />
-        Call or email Captain John for rates and availability <br />
-        john@boatridenyc.com | 914-772-7335 <br />
+        <h1 style={{color: "white"}}>BoatrideNYC</h1>
+        <div style={{textAlign: "center"}}>
+          <h4>Harbor Tours and Charters <br />
+          Call or email Captain John for rates and availability <br />
+          john@boatridenyc.com | 914-772-7335 <br /></h4>
+        </div>
       </div>
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-8 col-sm-offset-2">
+          <div className="col-sm-6 col-sm-offset-3">
             <div id="boatrideCarousel" className="carousel slide" data-ride="carousel">
               <ol className="carousel-indicators">
                 <li data-target="#boatrideCarousel" data-slide-to="0" className="active"></li>
