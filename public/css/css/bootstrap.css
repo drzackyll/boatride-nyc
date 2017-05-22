@@ -5,15 +5,12 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: 'Alegreya SC', serif;
+  font-family: 'Josefin Slab', serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
-  background-image: url(../../images/background.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 article,
 aside,
@@ -1085,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Alegreya SC', serif;
+  font-family: 'Josefin Slab', serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -6758,3 +6755,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.header img {
+  vertical-align: top;
+  width: 100%;
+  opacity: 0;
+}

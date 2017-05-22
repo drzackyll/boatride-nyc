@@ -5,16 +5,25 @@ const App = () => {
     maxWidth: "100%"
   }
 
+  var backgroundStyle = {
+    textAlign: "center",
+    backgroundImage: "url(../images/background.jpeg)",
+    backgroundSize: "100%"
+  }
+
   return (
     <div>
-      <div style={{textAlign: "center"}}>
-        <h1 style={{color: "white"}}>BoatrideNYC</h1>
-        <div style={{textAlign: "center"}}>
-          <h4>Harbor Tours and Charters <br />
-          Call or email Captain John for rates and availability <br />
-          john@boatridenyc.com | 914-772-7335 <br /></h4>
+      <div className="container-fluid" style={{backgroundColor: "rgb(35, 1, 1)"}}>
+        <div className="row">
+          <h1 className="col-sm-7">BoatrideNYC</h1>
+          <h4 className="col-sm-5" style={{color: "rgb(131, 13, 7)"}}>
+            Harbor Tours and Charters <br />
+            Call or email Captain John for rates and availability <br />
+            john@boatridenyc.com | 914-772-7335 <br />
+          </h4>
         </div>
       </div>
+      <div style={backgroundStyle} />
 
       <div className="container-fluid">
         <div className="row">
