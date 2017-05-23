@@ -15,26 +15,35 @@ const App = () => {
     <div>
       <div className="container-fluid" style={{backgroundColor: "rgb(35, 1, 1)"}}>
         <div className="row">
-          <h1 className="col-sm-7">BoatrideNYC</h1>
-          <h4 className="col-sm-5" style={{color: "rgb(131, 13, 7)"}}>
-            Harbor Tours and Charters <br />
-            Call or email Captain John for rates and availability <br />
-            john@boatridenyc.com | 914-772-7335 <br />
-          </h4>
+          <div className="col-sm-7">
+            <h1>BoatrideNYC</h1>
+          </div>
+          <div className="col-sm-5">
+            <h4 style={{color: "rgb(131, 13, 7)"}}>
+              Call or email Captain John for rates and availability <br />
+              john@boatridenyc.com | 914-772-7335
+            </h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-7">
+            <h4>Harbor Tours and Charters</h4>
+          </div>
+          <div className="col-sm-1">
+            <a href="#photos">Photos</a>
+          </div>
+          <div className="col-sm-4">
+            <a href="#about">About</a>
+          </div>
         </div>
       </div>
 
-
-        <img src={require("../public/images/background.jpeg")} alt="invisible" />
-        <h1>BoatrideNYC</h1>
-        <h4>
-          Harbor Tours and Charters <br />
-          Call or email Captain John for rates and availability <br />
-          john@boatridenyc.com | 914-772-7335 <br />
-        </h4>
+      <div>
+        <img src={require("../public/images/background.jpeg")} style={{width: "100%"}} alt="invisible" />
       </div>
 
-      <div className="container-fluid">
+      <div id="photos" className="container-fluid">
+        <h2>Photos</h2>
         <div className="row">
           <div className="col-sm-6 col-sm-offset-3">
             <div id="boatrideCarousel" className="carousel slide" data-ride="carousel">
@@ -87,6 +96,12 @@ const App = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div id="about">
+        <h2>About</h2>
+        Captain John is a maestro of New York Harbor and the surrounding rivers,
+        inlets, and waterfronts, as well as broader NYC geography and history.
       </div>
     </div>
   );
