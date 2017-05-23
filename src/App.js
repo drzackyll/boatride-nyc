@@ -23,7 +23,16 @@ const App = () => {
           </h4>
         </div>
       </div>
-      <div style={backgroundStyle} />
+
+
+        <img src={require("../public/images/background.jpeg")} alt="invisible" />
+        <h1>BoatrideNYC</h1>
+        <h4>
+          Harbor Tours and Charters <br />
+          Call or email Captain John for rates and availability <br />
+          john@boatridenyc.com | 914-772-7335 <br />
+        </h4>
+      </div>
 
       <div className="container-fluid">
         <div className="row">
