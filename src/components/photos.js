@@ -267,7 +267,6 @@ class Photos extends Component {
     const images = PHOTO_SET
 		if (!images) return
 		const gallery = images.map((obj, i) => {
-      debugger
 			return (
 				<a
 					href={obj.src}
