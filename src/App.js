@@ -18,7 +18,7 @@ const App = () => {
             <h1>BoatrideNYC</h1>
           </div>
           <div className="col-sm-5">
-            <h4 style={{color: "rgb(131, 13, 7)"}}>
+            <h4 style={{color: "rgb(83, 100, 17)"}}>
               Call or email Captain John for rates and availability <br />
               john@boatridenyc.com | 914-772-7335
             </h4>
@@ -38,7 +38,7 @@ const App = () => {
       </div>
 
       <div>
-        <img src={require("../public/images/background.jpg")} style={{width: "100%"}} alt="invisible" />
+        <img src={require("../public/images/background-2.jpg")} style={{width: "100%"}} alt="invisible" />
       </div>
 
       <div className="container-fluid" id="photos">
