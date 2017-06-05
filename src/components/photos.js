@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
 import { css, StyleSheet } from 'aphrodite/no-important'
