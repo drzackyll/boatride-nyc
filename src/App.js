@@ -4,6 +4,10 @@ import Photos from './components/photos'
 
 const App = () => {
 
+  const titleStyle = {
+    margin: "0.2em 0"
+  }
+
   const toSection = (event) => {
     document.querySelector(event.target.hash).scrollIntoView({
       behavior: 'smooth'
@@ -15,7 +19,8 @@ const App = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">
-            <h1>BoatrideNYC</h1>
+            <h1 style={titleStyle}>BoatrideNYC</h1>
+            <h4 style={titleStyle}>Harbor Tours and Charters</h4>
           </div>
           <div onClick={toSection} className="col-sm-1 col-sm-offset-2">
             <h4><a href="#about">About</a></h4>
@@ -25,22 +30,17 @@ const App = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6">
-            <h4>Harbor Tours and Charters</h4>
-            <h4>The Urban Boating Adventure for New Yorkers by New Yorkers.</h4>
-          </div>
-          <div className="col-sm-6">
-            <h4>
-              Call or email Captain John for rates and availability <br />
-              john@boatridenyc.com | 914-772-7335
-            </h4>
-          </div>
+          <h4 className="col-sm-6">
+            The Urban Boating Adventure for New Yorkers by New Yorkers.
+          </h4>
+          <h4 className="col-sm-6">
+            Call or email Captain John for rates and availability <br />
+            john@boatridenyc.com | 914-772-7335
+          </h4>
         </div>
       </div>
 
-      <div>
-        <img src={require("../public/images/background-2.jpg")} style={{width: "100%"}} alt="invisible" />
-      </div>
+      <img src={require("../public/images/background-2.jpg")} style={{width: "100%"}} alt="invisible" />
 
       <div className="container-fluid" id="about">
         <h2 style={{borderBottom: "solid", color: "rgb(51, 122, 183)"}}>About</h2>
