@@ -27,7 +27,7 @@ const App = () => {
         <div className="row">
           <div className="col-sm-6">
             <h4>Harbor Tours and Charters</h4>
-            <h6>Urban boating adventure for New Yorkers by New Yorkers.</h6>
+            <h4>The Urban Boating Adventure for New Yorkers by New Yorkers.</h4>
           </div>
           <div className="col-sm-6">
             <h4>
