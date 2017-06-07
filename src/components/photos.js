@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
-import { css, StyleSheet } from 'aphrodite/no-important'
+import { css, StyleSheet } from 'aphrodite'
 
 const PHOTO_SET = [
   {
@@ -270,7 +270,7 @@ class Photos extends Component {
 			return (
 				<a
 					href={obj.src}
-					className={css(classes.thumbnail, classes[obj.orientation])}
+					className={css(classes.thumbnail)}
 					key={i}
 					onClick={(e) => this.openLightbox(i, e)}
 				>
