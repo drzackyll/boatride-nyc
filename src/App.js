@@ -26,10 +26,10 @@ const App = () => {
             <h4><a href="#about">About</a></h4>
           </div>
           <div onClick={toSection} className="col-sm-1">
-            <h4><a href="#rates">Rates</a></h4>
+            <h4><a href="#photos">Photos</a></h4>
           </div>
           <div onClick={toSection} className="col-sm-1">
-            <h4><a href="#photos">Photos</a></h4>
+            <h4><a href="#rates">Rates</a></h4>
           </div>
           <div onClick={toSection} className="col-sm-1">
             <h4><a href="#contact">Contact</a></h4>
@@ -65,26 +65,26 @@ const App = () => {
         </div>
       </div>
       <hr />
-      <div className="container-fluid" id="rates">
-        <div className="row">
-          <h2>Rates</h2>
-          <div className="col-sm-8 col-sm-offset-2">
-            Captain John's signature New York Harbor tour circumnavigates Manhattan.
-            He guides passengers through New Yorker's long history with the water and
-            how New Yorkers have shaped their harbor. The rate is $550 for up to 6
-            passengers.
-            <br /><br />
-            Custom tours, photography, media and vessel support also available at rates
-            starting at $250 per hour.
-          </div>
-        </div>
-      </div>
-      <hr />
       <div className="container-fluid" id="photos">
         <div className="row">
           <h2>Photos</h2>
           <div className="col-sm-8 col-sm-offset-2">
             <Photos />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="container-fluid" id="rates">
+        <div className="row">
+          <h2>Rates</h2>
+          <div className="col-sm-8 col-sm-offset-2">
+            Captain John's signature New York Harbor tour circumnavigates Manhattan.
+            He guides passengers through New Yorkers' long history with the water and
+            how New Yorkers have shaped their harbor. The rate is $550 for up to 6
+            passengers.
+            <br /><br />
+            Custom tours, photography, media and vessel support also available at rates
+            starting at $250 per hour.
           </div>
         </div>
       </div>
