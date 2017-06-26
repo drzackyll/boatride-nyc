@@ -156,6 +156,44 @@ const PHOTO_SET = [
     width: 1200,
     height: 788,
     alt: 'image 8',
+  },
+  {
+    src: '../../images/boatride_9.jpg',
+    srcset: [
+      '../../images/boatride_9_1024.jpg 1024w',
+      '../../images/boatride_9_800.jpg 800w',
+      '../../images/boatride_9_500.jpg 500w',
+      '../../images/boatride_9_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_9_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'landscape',
+    width: 3264,
+    height: 2448,
+    alt: 'image 9',
+  },
+  {
+    src: '../../images/boatride_10.jpg',
+    srcset: [
+      '../../images/boatride_10_1024.jpg 1024w',
+      '../../images/boatride_10_800.jpg 800w',
+      '../../images/boatride_10_500.jpg 500w',
+      '../../images/boatride_10_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_10_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 2448,
+    height: 2448,
+    alt: 'image 10',
   }
 ];
 
