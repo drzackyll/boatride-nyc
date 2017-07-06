@@ -1,51 +1,28 @@
 import React from 'react'
 require('smoothscroll-polyfill').polyfill()
 import Photos from './components/photos'
+import NavBar from './components/navbar'
 
 const App = () => {
-
-  const titleStyle = {
-    margin: "0.2em 0"
-  }
-
-  const toSection = (event) => {
-    document.querySelector(event.target.hash).scrollIntoView({
-      behavior: 'smooth'
-    })
-  }
-
   return (
     <div>
+      <NavBar />
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">
-            <h1 style={titleStyle}>BoatrideNYC</h1>
-            <h4 style={titleStyle}>Harbor Tours and Charters</h4>
+            <h4>
+              Harbor Tours and Charters <br />
+              The Urban Boating Adventure for New Yorkers by New Yorkers.
+            </h4>
           </div>
-          <div onClick={toSection} className="col-sm-1 col-sm-offset-1">
-            <h4><a href="#about">About</a></h4>
+          <div className="col-sm-6">
+            <h4>
+              Call or email Captain John for rates and availability <br />
+              <a href="mailto:john@boatridenyc.com">john@boatridenyc.com</a> | 914-772-7335
+            </h4>
           </div>
-          <div onClick={toSection} className="col-sm-1">
-            <h4><a href="#photos">Photos</a></h4>
-          </div>
-          <div onClick={toSection} className="col-sm-1">
-            <h4><a href="#rates">Rates</a></h4>
-          </div>
-          <div onClick={toSection} className="col-sm-1">
-            <h4><a href="#contact">Contact</a></h4>
-          </div>
-        </div>
-        <div className="row">
-          <h4 className="col-sm-6">
-            The Urban Boating Adventure for New Yorkers by New Yorkers.
-          </h4>
-          <h4 className="col-sm-6">
-            Call or email Captain John for rates and availability <br />
-            <a href="mailto:john@boatridenyc.com">john@boatridenyc.com</a> | 914-772-7335
-          </h4>
         </div>
       </div>
-
       <img src={require("../public/images/background-2.jpg")} style={{width: "100%"}} alt="invisible" />
 
       <div className="container-fluid" id="about">

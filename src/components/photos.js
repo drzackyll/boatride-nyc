@@ -318,7 +318,7 @@ class Photos extends Component {
     })
 
     return (
-      <div className={css(classes.gallery)}>
+      <div style={{textAlign: "center"}} className={css(classes.gallery)}>
         {gallery}
       </div>
     );

@@ -6762,3 +6762,7 @@ button.close {
   width: 100%;
   opacity: 0;
 }
+
+.icon-bar {
+    background-color: rgb(37, 40, 45);
+}
