@@ -194,6 +194,25 @@ const PHOTO_SET = [
     width: 2448,
     height: 2448,
     alt: 'image 10',
+  },
+  {
+    src: '../../images/boatride_11.jpg',
+    srcset: [
+      '../../images/boatride_11_1024.jpg 1024w',
+      '../../images/boatride_11_800.jpg 800w',
+      '../../images/boatride_11_500.jpg 500w',
+      '../../images/boatride_11_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_11_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 2448,
+    height: 3264,
+    alt: 'image 11',
   }
 ];
 
