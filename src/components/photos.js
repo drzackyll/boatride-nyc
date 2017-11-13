@@ -232,6 +232,120 @@ const PHOTO_SET = [
     width: 4000,
     height: 3000,
     alt: 'image 12',
+  },
+  {
+    src: '../../images/boatride_13.jpg',
+    srcset: [
+      '../../images/boatride_13_1024.jpg 1024w',
+      '../../images/boatride_13_800.jpg 800w',
+      '../../images/boatride_13_500.jpg 500w',
+      '../../images/boatride_13_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_13_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 213,
+    height: 320,
+    alt: 'image 13',
+  },
+  {
+    src: '../../images/boatride_14.jpg',
+    srcset: [
+      '../../images/boatride_14_1024.jpg 1024w',
+      '../../images/boatride_14_800.jpg 800w',
+      '../../images/boatride_14_500.jpg 500w',
+      '../../images/boatride_14_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_14_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'landscape',
+    width: 3264,
+    height: 2448,
+    alt: 'image 14',
+  },
+  {
+    src: '../../images/boatride_15.jpg',
+    srcset: [
+      '../../images/boatride_15_1024.jpg 1024w',
+      '../../images/boatride_15_800.jpg 800w',
+      '../../images/boatride_15_500.jpg 500w',
+      '../../images/boatride_15_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_15_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 3024,
+    height: 4032,
+    alt: 'image 15',
+  },
+  {
+    src: '../../images/boatride_16.jpg',
+    srcset: [
+      '../../images/boatride_16_1024.jpg 1024w',
+      '../../images/boatride_16_800.jpg 800w',
+      '../../images/boatride_16_500.jpg 500w',
+      '../../images/boatride_16_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_16_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 2250,
+    height: 3000,
+    alt: 'image 16',
+  },
+  {
+    src: '../../images/boatride_17.jpg',
+    srcset: [
+      '../../images/boatride_17_1024.jpg 1024w',
+      '../../images/boatride_17_800.jpg 800w',
+      '../../images/boatride_17_500.jpg 500w',
+      '../../images/boatride_17_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_17_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'portrait',
+    width: 960,
+    height: 1280,
+    alt: 'image 17',
+  },
+  {
+    src: '../../images/boatride_18.jpg',
+    srcset: [
+      '../../images/boatride_18_1024.jpg 1024w',
+      '../../images/boatride_18_800.jpg 800w',
+      '../../images/boatride_18_500.jpg 500w',
+      '../../images/boatride_18_320.jpg 320w',
+    ],
+    thumbnail: '../../images/boatride_18_thumb.jpg',
+    sizes:[
+      '(min-width: 480px) 50vw',
+      '(min-width: 1024px) 33.3vw',
+      '100vw'
+    ],
+    orientation: 'landscape',
+    width: 1280,
+    height: 960,
+    alt: 'image 18',
   }
 ];
 
