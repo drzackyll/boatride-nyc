@@ -11,8 +11,9 @@ const App = () => {
         <div className="row">
           <div className="col-sm-6">
             <h4>
+              The Urban Boating Adventure for New Yorkers by New Yorkers. <br />
               Harbor Tours and Charters <br />
-              The Urban Boating Adventure for New Yorkers by New Yorkers.
+              Launch and Shuttle Service
             </h4>
           </div>
           <div className="col-sm-6">
