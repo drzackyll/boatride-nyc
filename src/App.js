@@ -11,14 +11,22 @@ const App = () => {
         <div className="row">
           <div className="col-sm-6">
             <h4>
-              <div style={{height: '8px'}}>The Urban Boating Adventure for New Yorkers by New Yorkers.</div><br />
-              Harbor Tours and Charters<br />
-              Launch and Shuttle Service
+              <div style={{lineHeight: '18px', paddingBottom: '8px'}}>The Urban Boating Adventure for New Yorkers by New Yorkers.</div>
+              <div className="col-sm-6">
+                Harbor Tours and Charters<br />
+                Launch and Shuttle Service<br />
+                VIP Transport<br />
+              </div>
+              <div className="col-sm-6">
+                Support Boat Services<br />
+                Film Shoots<br />
+                Drone Service<br />
+              </div>
             </h4>
           </div>
           <div className="col-sm-6">
             <h4>
-              Call or email Captain John for rates and availability <br />
+              Call, text, or email Captain John for rates and availability <br />
               <a href="mailto:john@boatridenyc.com">john@boatridenyc.com</a> | 914-772-7335
             </h4>
           </div>
@@ -46,7 +54,7 @@ const App = () => {
       <div className="container-fluid" id="photos">
         <div className="row">
           <h2>Photos</h2>
-          <div className="col-sm-8 col-sm-offset-2">
+          <div className="col-sm-8 col-sm-offset-2" style={{textAlign: 'center'}}>
             <Photos />
           </div>
         </div>
