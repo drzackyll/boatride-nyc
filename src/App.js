@@ -16,6 +16,7 @@ const App = () => {
                 Harbor Tours and Charters<br />
                 Launch and Shuttle Service<br />
                 VIP Transport<br />
+                Special Events<br />
               </div>
               <div className="col-sm-6">
                 Support Boat Services<br />
