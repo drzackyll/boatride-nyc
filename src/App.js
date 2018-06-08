@@ -19,7 +19,7 @@ const App = () => {
                 Special Events<br />
               </div>
               <div className="col-sm-6">
-                Support Boat Services<br />
+                Support Boat Service<br />
                 Film Shoots<br />
                 Drone Service<br />
               </div>
