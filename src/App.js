@@ -11,7 +11,9 @@ const App = () => {
         <div className="row">
           <div className="col-sm-6">
             <h4>
-              <div style={{lineHeight: '18px', paddingBottom: '8px'}}>The Urban Boating Adventure for New Yorkers by New Yorkers.</div>
+              <div style={{lineHeight: '18px', paddingBottom: '8px', textDecoration: 'underline'}}>
+                The Urban Boating Adventure for New Yorkers by New Yorkers.
+              </div>
               <div className="col-sm-6">
                 Harbor Tours and Charters<br />
                 Launch and Shuttle Service<br />
@@ -39,15 +41,13 @@ const App = () => {
         <div className="row">
           <h2>About</h2>
           <div className="col-sm-8 col-sm-offset-2">
-            Step on board this fast Rigid Hull Inflatable Boat ("RHIB") and get
-            up close and personal with the City's waterfront like you never imagined.
-            Captain John has deep knowledge of New York Harbor and the surrounding
-            rivers, inlets, and waterfronts, as well as broader NYC geography and
-            history. He has been called upon to help with sailing events, photo
-            shoots, movie shoots, wedding events, and private sightseeing tours.
-            With decades of experience navigating the area, Captain John can customize
-            your BoatrideNYC experience to hit your points of interest and maybe
-            even some you didn't know were there.
+            Step on board one of Captain John's fast Rigid Hull Inflatable Boat ("RHIB") and get up close 
+            and personal with the City's waterfront like you never imagined. Captain John has deep 
+            knowledge of New York Harbor and the surrounding rivers, inlets, and waterways, as well as 
+            broader NYC geography and history. He has been called upon to help with sailing events, photo 
+            shoots, movie shoots, marriage proposals, wedding events, and private sightseeing tours. With 
+            decades of experience navigating the area, Captain John can customize your BoatrideNYC 
+            experience to hit your points of interest and maybe even some you didn't know were there.
           </div>
         </div>
       </div>
@@ -65,13 +65,12 @@ const App = () => {
         <div className="row">
           <h2>Rates</h2>
           <div className="col-sm-8 col-sm-offset-2">
-            Captain John's signature New York Harbor tour circumnavigates Manhattan.
-            He guides passengers through New Yorkers' long history with the water and
-            how New Yorkers have shaped their harbor. The rate is $550 for up to 6
-            passengers.
+            Captain John's signature 2-hour New York Harbor tour circumnavigates Manhattan. 
+            He guides passengers through New Yorkers' long history with the water and how 
+            New Yorkers have shaped their harbor. The rate is $700 for up to 6 passengers.
             <br /><br />
-            Custom tours, photography, media and vessel support also available at rates
-            starting at $250 per hour.
+            Custom tours, photography, media and vessel support also available at rates 
+            starting at $300 per hour.
           </div>
         </div>
       </div>
