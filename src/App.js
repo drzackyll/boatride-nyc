@@ -41,7 +41,7 @@ const App = () => {
         <div className="row">
           <h2>About</h2>
           <div className="col-sm-8 col-sm-offset-2">
-            Step on board one of Captain John's fast Rigid Hull Inflatable Boat ("RHIB") and get up close 
+            Step on board one of Captain John's fast Rigid Hull Inflatable Boats ("RHIB") and get up close 
             and personal with the City's waterfront like you never imagined. Captain John has deep 
             knowledge of New York Harbor and the surrounding rivers, inlets, and waterways, as well as 
             broader NYC geography and history. He has been called upon to help with sailing events, photo 
