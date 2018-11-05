@@ -100,25 +100,25 @@ const PHOTO_SET = [
     height: 3128,
     alt: 'image 6',
   },
-  {
-    src: '../../images/capt_john.jpg',
-    srcset: [
-      '../../images/capt_john_1024.jpg 1024w',
-      '../../images/capt_john_800.jpg 800w',
-      '../../images/capt_john_500.jpg 500w',
-      '../../images/capt_john_320.jpg 320w',
-    ],
-    thumbnail: '../../images/capt_john_thumb.jpg',
-    sizes:[
-      '(min-width: 480px) 50vw',
-      '(min-width: 1024px) 33.3vw',
-      '100vw'
-    ],
-    orientation: 'portrait',
-    width: 960,
-    height: 1280,
-    alt: 'captain john',
-  },
+  // {
+  //   src: '../../images/capt_john.jpg',
+  //   srcset: [
+  //     '../../images/capt_john_1024.jpg 1024w',
+  //     '../../images/capt_john_800.jpg 800w',
+  //     '../../images/capt_john_500.jpg 500w',
+  //     '../../images/capt_john_320.jpg 320w',
+  //   ],
+  //   thumbnail: '../../images/capt_john_thumb.jpg',
+  //   sizes:[
+  //     '(min-width: 480px) 50vw',
+  //     '(min-width: 1024px) 33.3vw',
+  //     '100vw'
+  //   ],
+  //   orientation: 'portrait',
+  //   width: 960,
+  //   height: 1280,
+  //   alt: 'captain john',
+  // },
   {
     src: '../../images/boatride_2.jpg',
     srcset: [
