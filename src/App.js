@@ -61,16 +61,30 @@ const App = () => {
         </div>
       </div>
       <hr />
+      <div className="container-fluid" id="video">
+        <div className="row">
+          <h2>Video</h2>
+          <div className="col-sm-8 col-sm-offset-2">
+            <iframe src="https://player.vimeo.com/video/343314248?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/343314248">Secret Proposal on a boat (BoatrideNYC.com) near Statue of Liberty</a> from <a href="https://vimeo.com/utcinema">Uladzimir Taukachou</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          </div>
+          <div className="col-sm-8 col-sm-offset-2">
+            <iframe src="https://player.vimeo.com/video/284637372?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/284637372">Secret Proposal on a Boat, New York Harbor August 2018</a> from <a href="https://vimeo.com/utcinema">Uladzimir Taukachou</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          </div>
+        </div>
+      </div>
+      <hr />
       <div className="container-fluid" id="rates">
         <div className="row">
           <h2>Rates</h2>
           <div className="col-sm-8 col-sm-offset-2">
             Captain John's signature 2-hour New York Harbor tour circumnavigates Manhattan. 
             He guides passengers through New Yorkers' long history with the water and how 
-            New Yorkers have shaped their harbor. The rate is $700 for up to 6 passengers.
+            New Yorkers have shaped their harbor. The rate is $750 for up to 6 passengers.
             <br /><br />
             Custom tours, photography, media and vessel support also available at rates 
-            starting at $300 per hour.
+            starting at $350 per hour.
           </div>
         </div>
       </div>
@@ -83,6 +97,14 @@ const App = () => {
             <a href="mailto:john@boatridenyc.com">john@boatridenyc.com</a> | 914-772-7335
           </div>
         </div>
+      </div>
+
+      <div className="hide">
+        governors island private boat service
+        collective retreats governors island boat service
+        collective retreats governors island ferry
+        collective retreats governors island boat shuttle transport
+        collective retreats governors island boat harbor tours
       </div>
     </div>
   );
