@@ -81,10 +81,12 @@ const App = () => {
           <div className="col-sm-8 col-sm-offset-2">
             Captain John's signature 2-hour New York Harbor tour circumnavigates Manhattan. 
             He guides passengers through New Yorkers' long history with the water and how 
-            New Yorkers have shaped their harbor. The rate is $750 for up to 6 passengers.
+            New Yorkers have shaped their harbor. The rate is $650 for up to 6 passengers.
+            He also offers a 1&frac12; hour "Heart of the Harbor" tour for $475 for up to 6
+            passengers.
             <br /><br />
             Custom tours, photography, media and vessel support also available at rates 
-            starting at $350 per hour.
+            starting at $250 per hour.
           </div>
         </div>
       </div>

@@ -22,6 +22,7 @@ const NavBar = () => {
           <div className="nav navbar-nav navbar-right"><br />
             <a onClick={toSection} className="btn-default" href="#about">About</a> &nbsp; &nbsp;
             <a onClick={toSection} className="btn-default" href="#photos">Photos</a> &nbsp; &nbsp;
+            <a onClick={toSection} className="btn-default" href="#video">Videos</a> &nbsp; &nbsp;
             <a onClick={toSection} className="btn-default" href="#rates">Rates</a> &nbsp; &nbsp;
             <a onClick={toSection} className="btn-default" href="#contact">Contact</a>
           </div>
